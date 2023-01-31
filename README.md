@@ -5,7 +5,9 @@ TODO: Add visuals
 
 ## What are rocket gliders?
 
-Rocket gliders are vehicles which launch as rockets and come down as gliders, as demonstrated for example in [this picture from Apogee Rockets](https://github.com/ttikkala/glider-control/blob/main/pictures/condor.jpg). 
+Rocket gliders are vehicles which launch as rockets and come down as gliders, as demonstrated for example in this picture from [Apogee Rockets](https://www.apogeerockets.com/Rocket-Kits/Skill-Level-2-Model-Rocket-Kits/Condor-Boost-Glider): 
+
+![](https://github.com/ttikkala/glider-control/blob/main/pictures/condor.jpg)
 
 The goal for this project is to build a **model scale rocket glider** that after launching can **autonomously recover** by gliding to the desired location. (Back to the launch pad would be very cool but due to safety concerns will probably not be the desired direction.)
 
@@ -21,7 +23,7 @@ The PID loop calculates the control response of a flight surface to the state of
 
 ## Glider design
 
-The first step is to test the code on a standard RC/model glider. I will be using the [Simple Soarer from Flite Test](https://www.flitetest.com/articles/ft-simple-soarer-build) for this. It has a pretty standard glider design with high aspect ratio wings and two control channels for elevator and rudder. So nothing fancy and perfect for testing new code, and hopefully simple enough if we end up doing any control system modelling for gain tuning.
+The first step is to test the code on a standard RC/model glider. I will be using the [Simple Soarer from Flite Test](https://www.flitetest.com/articles/ft-simple-soarer-build) for this. It is a pretty standard glider design with high aspect ratio wings and two flight surfaces: elevator and rudder. So nothing fancy and perfect for testing new code, and hopefully simple enough if we end up doing any control system modelling for gain tuning.
 
 After testing the code on a standard glider, I will move on to incorporating the software on a rocket glider, and that design is not yet finished.
 
