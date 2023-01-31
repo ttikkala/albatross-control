@@ -5,7 +5,7 @@ TODO: Add visuals
 
 ## What are rocket gliders?
 
-Rocket gliders are vehicles which launch as rockets and come down as gliders, as demonstrated for example in [this picture from Apogee Rockets](pictures/condor). 
+Rocket gliders are vehicles which launch as rockets and come down as gliders, as demonstrated for example in [this picture from Apogee Rockets](https://github.com/ttikkala/glider-control/blob/main/pictures/condor.jpg). 
 
 The goal for this project is to build a **model scale rocket glider** that after launching can **autonomously recover** by gliding to the desired location. (Back to the launch pad would be very cool but due to safety concerns will probably not be the desired direction.)
 
